@@ -1,0 +1,549 @@
+[
+  {
+    "sha": "f4a6ea8ba2df2d66ffcd8b7b2f7a46c634019371",
+    "node_id": "C_kwDOMiPnxtoAKGY0YTZlYThiYTJkZjJkNjZmZmNkOGI3YjJmN2E0NmM2MzQwMTkzNzE",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "54040096+TraXIcoN@users.noreply.github.com",
+        "date": "2024-08-12T04:21:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-08-12T04:21:01Z"
+      },
+      "message": "Create main.yml",
+      "tree": {
+        "sha": "2a7bf4808d275ea0d8a72a1976e531cf57ac42b4",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/2a7bf4808d275ea0d8a72a1976e531cf57ac42b4"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/f4a6ea8ba2df2d66ffcd8b7b2f7a46c634019371",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmuY2tCRC1aQ7uu5UhlAAAsogQACRWKD9VXXCgxcZ2j8TJRIir\nZvEZ7hU7pNCDXCI+4dVteIsE9g6mwnOaXoivRwnoZsjBQfCq4Lm2pHH7VymZSghq\nU/+YytiaP2nZZKr+tCc3pVNeUVkKakW6LRnqEjAH+HVTdVYdQkol8Gk4u9us2gJX\nLxDYjK1E1Cb4zyLt8hIUHPrvKtzwuC1FqyOXB29xa0eJU8okGIg/VgpagrKr4q1D\nMWGCwpvdSnKVkxRJ/GKb92j/F4I8V5qfhQjEHSNtRkSoBltUeowosgPnY7WzZ/18\nQtql6BExJedrDgef2OgHyNj/SseW5Nt0DReyAyoipL07jD9hZ3o5P2dPHtStlqeE\n8p2xm+HuBKv/mda2YgbSkrz3WsxIcR9rbO6mNM5CyLZjZiRYlGuvlhXRvq5Oe7fH\nMm8bBiEaTWYlabgLNeitu5c/INBVJC4C+xV4HgbF2B1ykC88oa1uQSRoFnmiGo/L\npsCxfOkbH5qtGPeXrlLPdNwX2hyW6NJnpSAwCgEiIkAVu/hYtE8e14lKOGez6k6w\nQuiIFrduniM/l7dp188bOU2HTSjLnlf0gvSl4THeLkpDup9oIf7NsYmrvsXR5Z0G\nCk0ZnbE89/miAaDTLXOB9i53Kt2MK3Yc8NJNUB5yUxvZlETkz6dykiOBkPKtp+2S\nYFjqP7t8KJfSyZKBhbdU\n=2QGf\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2a7bf4808d275ea0d8a72a1976e531cf57ac42b4\nparent 1cd81274ecaa922ec4b02be80226c76ce56a8ffd\nauthor Aditya Mohan <54040096+TraXIcoN@users.noreply.github.com> 1723436461 -0400\ncommitter GitHub <noreply@github.com> 1723436461 -0400\n\nCreate main.yml"
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/f4a6ea8ba2df2d66ffcd8b7b2f7a46c634019371",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/f4a6ea8ba2df2d66ffcd8b7b2f7a46c634019371",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/f4a6ea8ba2df2d66ffcd8b7b2f7a46c634019371/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/1cd81274ecaa922ec4b02be80226c76ce56a8ffd"
+      }
+    ]
+  },
+  {
+    "sha": "1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+    "node_id": "C_kwDOMiPnxtoAKDFjZDgxMjc0ZWNhYTkyMmVjNGIwMmJlODAyMjZjNzZjZTU2YThmZmQ",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T03:47:17Z"
+      },
+      "committer": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T03:47:17Z"
+      },
+      "message": "Compatibility fix",
+      "tree": {
+        "sha": "8f7b678d9fa90247bc2faa81105c6b78129754a0",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/8f7b678d9fa90247bc2faa81105c6b78129754a0"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/1cd81274ecaa922ec4b02be80226c76ce56a8ffd",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1cd81274ecaa922ec4b02be80226c76ce56a8ffd/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "08b201038ad922d5012466e0a4980dea53b8f76b",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/08b201038ad922d5012466e0a4980dea53b8f76b",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/08b201038ad922d5012466e0a4980dea53b8f76b"
+      }
+    ]
+  },
+  {
+    "sha": "08b201038ad922d5012466e0a4980dea53b8f76b",
+    "node_id": "C_kwDOMiPnxtoAKDA4YjIwMTAzOGFkOTIyZDUwMTI0NjZlMGE0OTgwZGVhNTNiOGY3NmI",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T03:03:18Z"
+      },
+      "committer": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T03:03:18Z"
+      },
+      "message": "Made UI Changes",
+      "tree": {
+        "sha": "83302ca908b30d443ebce1756728e0d320cff676",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/83302ca908b30d443ebce1756728e0d320cff676"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/08b201038ad922d5012466e0a4980dea53b8f76b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/08b201038ad922d5012466e0a4980dea53b8f76b",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/08b201038ad922d5012466e0a4980dea53b8f76b",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/08b201038ad922d5012466e0a4980dea53b8f76b/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/7dd39a86e8d6d4e06497cde4f7539ee58f1905df"
+      }
+    ]
+  },
+  {
+    "sha": "7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+    "node_id": "C_kwDOMiPnxtoAKDdkZDM5YTg2ZThkNmQ0ZTA2NDk3Y2RlNGY3NTM5ZWU1OGYxOTA1ZGY",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T02:25:03Z"
+      },
+      "committer": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T02:25:03Z"
+      },
+      "message": "Fixed failed merge",
+      "tree": {
+        "sha": "096447cfb11bbc2a28fc79a6aca81c5400bc8d9d",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/096447cfb11bbc2a28fc79a6aca81c5400bc8d9d"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/7dd39a86e8d6d4e06497cde4f7539ee58f1905df",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/7dd39a86e8d6d4e06497cde4f7539ee58f1905df/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/cff6841ef7c0f0240da15d26a07c9b72b9929f92"
+      }
+    ]
+  },
+  {
+    "sha": "cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+    "node_id": "C_kwDOMiPnxtoAKGNmZjY4NDFlZjdjMGYwMjQwZGExNWQyNmEwN2M5YjcyYjk5MjlmOTI",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T01:54:44Z"
+      },
+      "committer": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T01:56:24Z"
+      },
+      "message": "Implemented Loaded and Login and LLM Orchestration",
+      "tree": {
+        "sha": "98fcbe1e2b601441784a024036d59b57fa2e19a6",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/98fcbe1e2b601441784a024036d59b57fa2e19a6"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/cff6841ef7c0f0240da15d26a07c9b72b9929f92",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/cff6841ef7c0f0240da15d26a07c9b72b9929f92/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/1ec182330800ad96b1cb8019e27fa77a7bdcd95d"
+      }
+    ]
+  },
+  {
+    "sha": "1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+    "node_id": "C_kwDOMiPnxtoAKDFlYzE4MjMzMDgwMGFkOTZiMWNiODAxOWUyN2ZhNzdhN2JkY2Q5NWQ",
+    "commit": {
+      "author": {
+        "name": "Dinesh12",
+        "email": "dineshkannan010@gmail.com",
+        "date": "2024-08-12T01:35:51Z"
+      },
+      "committer": {
+        "name": "Dinesh12",
+        "email": "dineshkannan010@gmail.com",
+        "date": "2024-08-12T01:35:51Z"
+      },
+      "message": "Added prompt for better output related to context",
+      "tree": {
+        "sha": "572353f2ddfe34eeb72057e7c6d3c2a8becb930b",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/572353f2ddfe34eeb72057e7c6d3c2a8becb930b"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/1ec182330800ad96b1cb8019e27fa77a7bdcd95d",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/1ec182330800ad96b1cb8019e27fa77a7bdcd95d/comments",
+    "author": {
+      "login": "dineshkannan010",
+      "id": 55702844,
+      "node_id": "MDQ6VXNlcjU1NzAyODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55702844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dineshkannan010",
+      "html_url": "https://github.com/dineshkannan010",
+      "followers_url": "https://api.github.com/users/dineshkannan010/followers",
+      "following_url": "https://api.github.com/users/dineshkannan010/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dineshkannan010/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dineshkannan010/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dineshkannan010/subscriptions",
+      "organizations_url": "https://api.github.com/users/dineshkannan010/orgs",
+      "repos_url": "https://api.github.com/users/dineshkannan010/repos",
+      "events_url": "https://api.github.com/users/dineshkannan010/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dineshkannan010/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dineshkannan010",
+      "id": 55702844,
+      "node_id": "MDQ6VXNlcjU1NzAyODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55702844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dineshkannan010",
+      "html_url": "https://github.com/dineshkannan010",
+      "followers_url": "https://api.github.com/users/dineshkannan010/followers",
+      "following_url": "https://api.github.com/users/dineshkannan010/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dineshkannan010/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dineshkannan010/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dineshkannan010/subscriptions",
+      "organizations_url": "https://api.github.com/users/dineshkannan010/orgs",
+      "repos_url": "https://api.github.com/users/dineshkannan010/repos",
+      "events_url": "https://api.github.com/users/dineshkannan010/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dineshkannan010/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+        "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/8b31c0ed309805d98dbd7a43ef1ac00667685d73"
+      }
+    ]
+  },
+  {
+    "sha": "8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+    "node_id": "C_kwDOMiPnxtoAKDhiMzFjMGVkMzA5ODA1ZDk4ZGJkN2E0M2VmMWFjMDA2Njc2ODVkNzM",
+    "commit": {
+      "author": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T00:06:30Z"
+      },
+      "committer": {
+        "name": "Aditya Mohan",
+        "email": "coding.traxicon16@gmail.com",
+        "date": "2024-08-12T00:06:30Z"
+      },
+      "message": "Implemented RAG",
+      "tree": {
+        "sha": "9efd06fa09c489fe9b1424ec4e3d197030105f5f",
+        "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/trees/9efd06fa09c489fe9b1424ec4e3d197030105f5f"
+      },
+      "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/git/commits/8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+    "html_url": "https://github.com/TraXIcoN/AiCustomerSupport/commit/8b31c0ed309805d98dbd7a43ef1ac00667685d73",
+    "comments_url": "https://api.github.com/repos/TraXIcoN/AiCustomerSupport/commits/8b31c0ed309805d98dbd7a43ef1ac00667685d73/comments",
+    "author": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "TraXIcoN",
+      "id": 54040096,
+      "node_id": "MDQ6VXNlcjU0MDQwMDk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54040096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TraXIcoN",
+      "html_url": "https://github.com/TraXIcoN",
+      "followers_url": "https://api.github.com/users/TraXIcoN/followers",
+      "following_url": "https://api.github.com/users/TraXIcoN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TraXIcoN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TraXIcoN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TraXIcoN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TraXIcoN/orgs",
+      "repos_url": "https://api.github.com/users/TraXIcoN/repos",
+      "events_url": "https://api.github.com/users/TraXIcoN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TraXIcoN/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]

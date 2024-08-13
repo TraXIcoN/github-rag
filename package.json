@@ -1,0 +1,19 @@
+{
+  "name": "github-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project is for making RAGs out of github repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Aditya Mohan",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.0.1",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.55.5"
+  }
+}
