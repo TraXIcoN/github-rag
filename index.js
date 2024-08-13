@@ -9,6 +9,66 @@ import { vectorizeChunks } from "./embedding/vectorizer.js";
 import { indexEmbeddings } from "./indexing/indexer.js";
 import { queryRepo } from "./querying/queryProcessor.js";
 import { generateResponse } from "./response/responseGenerator.js";
+import express from "express";
+import cors from "cors";
+const app = express();
+
+app.use(cors());
+app.use(express.json()); // To parse JSON bodies
+
+app.post("/process-repo", async (req, res) => {
+  const { username, repoName } = req.body;
+
+  if (!username || !repoName) {
+    return res
+      .status(400)
+      .json({ error: "username and repoName are required" });
+  }
+
+  try {
+    // Your logic to process the repo goes here
+    // For example: clone the repo, analyze the files, etc.
+    main(username, reponame);
+
+    res.status(200).json({ success: true, message: "Repo processing started" });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ success: false, message: "Error processing repository" });
+  }
+});
+
+app.post("/process-query", async (req, res) => {
+  const { query } = req.body;
+
+  if (!query) {
+    return res.status(400).json({ error: "query is required" });
+  }
+
+  try {
+    // Step 4: Handle a query
+    console.log("Handling query");
+    const matches = await queryRepo(query);
+    console.log("Query processing complete");
+
+    // Step 5: Generate a response
+    console.log("Generating response");
+    const response = await generateResponse(query, matches);
+
+    // Return the response to the client
+    res.status(200).json({ success: true, response });
+  } catch (error) {
+    console.error("Error processing query:", error);
+    res
+      .status(500)
+      .json({ success: false, message: "Error processing repository" });
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
 // Convert `import.meta.url` to `__dirname`
 const __filename = fileURLToPath(import.meta.url);
@@ -114,8 +174,8 @@ async function getContributors() {
   }
 }
 
-async function scrapeRepo() {
-  console.log(`Scraping repository ${REPO_OWNER}/${REPO_NAME}...`);
+async function scrapeRepo(username, repoName) {
+  console.log(`Scraping repository ${username}/${repoName}...`);
 
   console.log("Fetching project structure...");
   await getRepoContents();
@@ -127,9 +187,9 @@ async function scrapeRepo() {
   await getContributors();
 }
 
-async function main() {
+async function main(username, repoName) {
   // Scrape the data from the github repo
-  //   scrapeRepo();
+  scrapeRepo(username, repoName);
 
   // Step 1: Load and chunk data
   console.log("Starting Loading and Chunking data");
@@ -152,17 +212,4 @@ async function main() {
   console.log("Generating embeddings");
   await indexEmbeddings(embeddings);
   console.log("Finished generating embeddings");
-
-  // Step 4: Handle a query
-  console.log("Handling query");
-  const query = "Explain the code changes and commit made by dineshkannan010?";
-  const matches = await queryRepo(query);
-  console.log("Query processing complete");
-
-  // Step 5: Generate a response
-  console.log("Generating response");
-  const response = await generateResponse(query, matches);
-  console.log(response);
 }
-
-main().catch((err) => console.error(err));
