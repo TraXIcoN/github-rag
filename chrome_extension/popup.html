@@ -4,34 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Repo Q&A</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        width: 300px;
-        padding: 20px;
-      }
-      #loader {
-        display: none;
-        text-align: center;
-      }
-      #chatInterface {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h3>Enter GitHub Repo Info</h3>
-    <input type="text" id="username" placeholder="GitHub Username" />
-    <input type="text" id="repoName" placeholder="Repo Name" />
-    <button id="processRepo">Process Repo</button>
+    <div class="container">
+      <h3>GitHub Repo Q&A</h3>
+      <div class="input-group">
+        <input type="text" id="username" placeholder="Username" />
+        <input type="text" id="repoName" placeholder="Repo Name" />
+      </div>
+      <button id="processRepo" class="btn">Process Repo</button>
 
-    <div id="loader">Loading...</div>
+      <div id="loader" class="rubik-loader">
+        <div class="cube"></div>
+      </div>
 
-    <div id="chatInterface">
-      <h4>Ask Questions About Repo</h4>
-      <input type="text" id="userQuestion" placeholder="Ask a question" />
-      <button id="askQuestion">Ask</button>
-      <div id="chatOutput"></div>
+      <div id="chatInterface">
+        <div class="input-group">
+          <input type="text" id="userQuestion" placeholder="Ask a question" />
+          <button id="askQuestion" class="btn">Ask</button>
+        </div>
+        <div id="chatOutput" class="chat-output"></div>
+      </div>
+      <button id="startOver" class="btn">Start Over?</button>
     </div>
 
     <script src="popup.js"></script>

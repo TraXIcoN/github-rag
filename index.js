@@ -28,7 +28,7 @@ app.post("/process-repo", async (req, res) => {
   try {
     // Your logic to process the repo goes here
     // For example: clone the repo, analyze the files, etc.
-    main(username, reponame);
+    main(username, repoName);
 
     res.status(200).json({ success: true, message: "Repo processing started" });
   } catch (error) {
@@ -77,25 +77,16 @@ const __dirname = path.dirname(__filename);
 dotenv.config();
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const REPO_OWNER = process.env.REPO_OWNER;
-const REPO_NAME = process.env.REPO_NAME;
 
 const octokit = new Octokit({
   auth: GITHUB_TOKEN,
 });
 
-const OUTPUT_DIR = path.join(__dirname, REPO_NAME);
-
-// Ensure the output directory exists
-if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-}
-
 async function getRepoContents(repoPath = "") {
   try {
     const { data } = await octokit.repos.getContent({
-      owner: REPO_OWNER,
-      repo: REPO_NAME,
+      owner: global.REPO_OWNER,
+      repo: global.REPO_NAME,
       path: repoPath,
     });
 
@@ -121,14 +112,14 @@ async function getRepoContents(repoPath = "") {
 async function downloadFile(filePath) {
   try {
     const { data } = await octokit.repos.getContent({
-      owner: REPO_OWNER,
-      repo: REPO_NAME,
+      owner: global.REPO_OWNER,
+      repo: global.REPO_NAME,
       path: filePath,
     });
 
     if (data.encoding === "base64") {
       const content = Buffer.from(data.content, "base64").toString("utf-8");
-      const fileOutputPath = path.join(OUTPUT_DIR, filePath);
+      const fileOutputPath = path.join(global.OUTPUT_DIR, filePath);
       const fileDir = path.dirname(fileOutputPath);
 
       // Ensure the directory exists
@@ -147,11 +138,11 @@ async function downloadFile(filePath) {
 async function getCommits() {
   try {
     const { data } = await octokit.repos.listCommits({
-      owner: REPO_OWNER,
-      repo: REPO_NAME,
+      owner: global.REPO_OWNER,
+      repo: global.REPO_NAME,
     });
 
-    const commitsOutputPath = path.join(OUTPUT_DIR, "commits.json");
+    const commitsOutputPath = path.join(global.OUTPUT_DIR, "commits.json");
     fs.writeFileSync(commitsOutputPath, JSON.stringify(data, null, 2));
     console.log(`Saved commits: ${commitsOutputPath}`);
   } catch (error) {
@@ -162,11 +153,14 @@ async function getCommits() {
 async function getContributors() {
   try {
     const { data } = await octokit.repos.listContributors({
-      owner: REPO_OWNER,
-      repo: REPO_NAME,
+      owner: global.REPO_OWNER,
+      repo: global.REPO_NAME,
     });
 
-    const contributorsOutputPath = path.join(OUTPUT_DIR, "contributors.json");
+    const contributorsOutputPath = path.join(
+      global.OUTPUT_DIR,
+      "contributors.json"
+    );
     fs.writeFileSync(contributorsOutputPath, JSON.stringify(data, null, 2));
     console.log(`Saved contributors: ${contributorsOutputPath}`);
   } catch (error) {
@@ -174,8 +168,10 @@ async function getContributors() {
   }
 }
 
-async function scrapeRepo(username, repoName) {
-  console.log(`Scraping repository ${username}/${repoName}...`);
+async function scrapeRepo() {
+  console.log(
+    `Scraping repository ${global.REPO_OWNER}/${global.REPO_NAME}...`
+  );
 
   console.log("Fetching project structure...");
   await getRepoContents();
@@ -188,12 +184,23 @@ async function scrapeRepo(username, repoName) {
 }
 
 async function main(username, repoName) {
+  global.REPO_NAME = repoName;
+  global.REPO_OWNER = username;
+  global.OUTPUT_DIR = path.join(
+    __dirname,
+    "working_directory",
+    global.REPO_NAME
+  );
+  // Ensure the output directory exists
+  if (!fs.existsSync(global.OUTPUT_DIR)) {
+    fs.mkdirSync(global.OUTPUT_DIR, { recursive: true });
+  }
   // Scrape the data from the github repo
-  scrapeRepo(username, repoName);
+  scrapeRepo();
 
   // Step 1: Load and chunk data
   console.log("Starting Loading and Chunking data");
-  const files = loadFiles("./repo-data");
+  const files = loadFiles(global.OUTPUT_DIR);
   let chunks = [];
   files.forEach((file) => {
     const chunkedContent = chunkText(file.content);

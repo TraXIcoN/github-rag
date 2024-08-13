@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 #ignoring working directory folders
-.working_directory/
+working_directory/
